@@ -10,11 +10,7 @@ class Solution(object):
                     stack.pop()
             return ''.join(stack)
         return building_string(s) == building_string(t)
-sol = Solution()
-print(sol.backspaceCompare("ab#c", "ad#c"))  
-print(sol.backspaceCompare("ab##", "c#d#"))  
-print(sol.backspaceCompare("a#c", "b"))
-        
+
     
                 
             
